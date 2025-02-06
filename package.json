@@ -26,6 +26,8 @@
     "canvas-5-polyfill": "^0.1.5",
     "chart.js": "2.9.4",
     "chartjs-chart-geo": "2.1.0",
+    "@types/geojson": "^7946.0.7",
+    "d3-geo": "^1.12.1",
     "chartjs-adapter-moment": "0.1.1",
     "chartjs-chart-box-and-violin-plot": "2.4.0",
     "chartjs-chart-radial-gauge": "1.0.3",
