@@ -14,11 +14,18 @@
     "test": "PORT=3401 NODE_ENV=test mocha --exit --recursive test/ci/",
     "test:watch": "PORT=2998 NODE_ENV=test chokidar '**/*.js' --initial --ignore node_modules -c 'mocha --exit --recursive test/'"
   },
+  "overrides": {
+    "canvas": "2.9.3"
+  },
+  "resolutions": {
+    "canvas": "2.9.3"
+  },
   "dependencies": {
     "bunyan": "1.8.12",
     "canvas": "2.9.3",
     "chart.js": "2.9.4",
     "chartjs-chart-geo": "2.1.0",
+    "chartjs-node-canvas": "3.1.0",
     "d3-geo": "1.12.1",
     "express": "4.17.1",
     "body-parser": "1.19.0",
