@@ -25,6 +25,7 @@
     "canvas": "2.9.3",
     "chart.js": "2.9.4",
     "chartjs-chart-geo": "2.1.0",
+    "chartjs-chart-box-and-violin-plot": "^2.4.0",
     "chartjs-node-canvas": "3.1.0",
     "d3-geo": "^1.12.1",
     "express": "^4.17.1",
