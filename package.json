@@ -39,7 +39,11 @@
     "text2png": "2.3.0",
     "qrcode": "1.4.4",
     "canvas-5-polyfill": "0.1.5",
-    "topojson-client": "3.1.0"
+    "topojson-client": "3.1.0",
+    "pdfkit": "0.13.0",
+    "viz.js": "2.1.2",
+    "get-image-colors": "4.0.1",
+    "sharp": "0.32.6"
   },
   "devDependencies": {
     "mocha": "^6.2.3",
