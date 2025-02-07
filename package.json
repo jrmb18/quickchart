@@ -9,10 +9,7 @@
     "url": "https://github.com/typpo/quickchart.git"
   },
   "scripts": {
-    "start": "node --max-http-header-size=65536 index.js",
-    "format": "prettier --write \"**/*.js\"",
-    "test": "PORT=3401 NODE_ENV=test mocha --exit --recursive test/ci/",
-    "test:watch": "PORT=2998 NODE_ENV=test chokidar '**/*.js' --initial --ignore node_modules -c 'mocha --exit --recursive test/'"
+    "start": "node --max-http-header-size=65536 index.js"
   },
   "overrides": {
     "canvas": "2.9.3"
@@ -47,9 +44,5 @@
     "canvas-5-polyfill": "0.1.5",
     "topojson-client": "3.1.0",
     "get-image-colors": "4.0.1"
-  },
-  "devDependencies": {
-    "mocha": "6.2.3",
-    "prettier": "1.18.2"
   }
 }
